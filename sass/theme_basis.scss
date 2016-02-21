@@ -1,7 +1,8 @@
 $font-color-white: #fff;
 $background-color-white: #fff;
-$background-color-white-transparent: rgba(255, 255, 255, 0.9);;
+$background-color-white-transparent: rgba(255, 255, 255, 0.7);;
 $background-color-green-brown: #B8A75F;
+$background-color-green-brown-hover: #887B44;
 $line-color-green-brown: #B8A75F;
 $border-color-grey: #2b2d2f;
 
@@ -17,7 +18,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 101;
   //padding: 20px 10px 10px 20px;
   nav.menu {
     ul {
@@ -81,6 +82,13 @@ section#personal-info {
     text-align: right;
     font-weight: bold;
   }
+  ul {
+    padding: 0px;
+    margin: 0px;
+  }
+  li {
+    list-style: none;
+  }
 }
 
 section#skills {
@@ -142,7 +150,7 @@ section#experience {
     position: absolute;
     content: " ";
     width: 3px;
-    background-color: #eeeeee;
+    background-color: $background-color-green-brown;
     left: 50%;
     margin-left: -1.5px;
   }
@@ -219,7 +227,7 @@ section#experience {
     top: 16px;
     left: 50%;
     margin-left: -25px;
-    background-color: #999999;
+    background-color: $background-color-green-brown;
     z-index: 100;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
@@ -312,6 +320,27 @@ section#experience {
       border-right-width: 14px;
       left: -14px;
       right: auto;
+    }
+  }
+}
+
+section#contact {
+  .contact-inner-container {
+    text-align: center;
+    .footer-icon {
+      font-size: 3rem;
+      line-height: 7rem;
+      height: 7rem;
+      width: 7rem;
+      background: $background-color-green-brown;
+      color: $font-color-white;
+      display: inline-block;
+      border-radius: 50%;
+      margin: 0 30px 0 30px;
+      transition: all .3s ease-in-out;
+    }
+    .footer-icon:hover {
+      background-color: $background-color-green-brown-hover;
     }
   }
 }
