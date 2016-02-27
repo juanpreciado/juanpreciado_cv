@@ -71,42 +71,43 @@ section#intro .logo {
 /* line 68, ../sass/theme_basis.scss */
 section#intro .logo img {
   width: 100%;
+  border-radius: 50%;
 }
-/* line 72, ../sass/theme_basis.scss */
+/* line 73, ../sass/theme_basis.scss */
 section#intro h1 {
   margin: 20px 0px 20px 0px;
 }
-/* line 75, ../sass/theme_basis.scss */
+/* line 76, ../sass/theme_basis.scss */
 section#intro h2 {
   margin: 10px 0px 10px 0px;
 }
 
-/* line 81, ../sass/theme_basis.scss */
+/* line 82, ../sass/theme_basis.scss */
 section#personal-info .personal-info-title {
   text-align: right;
   font-weight: bold;
 }
-/* line 85, ../sass/theme_basis.scss */
+/* line 86, ../sass/theme_basis.scss */
 section#personal-info ul {
   padding: 0px;
   margin: 0px;
 }
-/* line 89, ../sass/theme_basis.scss */
+/* line 90, ../sass/theme_basis.scss */
 section#personal-info li {
   list-style: none;
 }
 
-/* line 95, ../sass/theme_basis.scss */
+/* line 96, ../sass/theme_basis.scss */
 section#experience {
   background-color: rgba(255, 255, 255, 0.7);
 }
-/* line 97, ../sass/theme_basis.scss */
+/* line 98, ../sass/theme_basis.scss */
 section#experience .timeline {
   list-style: none;
   padding: 20px 0 20px;
   position: relative;
 }
-/* line 103, ../sass/theme_basis.scss */
+/* line 104, ../sass/theme_basis.scss */
 section#experience .timeline:before {
   top: 0;
   bottom: 0;
@@ -117,32 +118,32 @@ section#experience .timeline:before {
   left: 50%;
   margin-left: -1.5px;
 }
-/* line 114, ../sass/theme_basis.scss */
+/* line 115, ../sass/theme_basis.scss */
 section#experience .timeline > li {
   margin-bottom: 20px;
   position: relative;
 }
-/* line 119, ../sass/theme_basis.scss */
+/* line 120, ../sass/theme_basis.scss */
 section#experience .timeline > li:before,
 section#experience .timeline > li:after {
   content: " ";
   display: table;
 }
-/* line 125, ../sass/theme_basis.scss */
+/* line 126, ../sass/theme_basis.scss */
 section#experience .timeline > li:after {
   clear: both;
 }
-/* line 129, ../sass/theme_basis.scss */
+/* line 130, ../sass/theme_basis.scss */
 section#experience .timeline > li:before,
 section#experience .timeline > li:after {
   content: " ";
   display: table;
 }
-/* line 135, ../sass/theme_basis.scss */
+/* line 136, ../sass/theme_basis.scss */
 section#experience .timeline > li:after {
   clear: both;
 }
-/* line 139, ../sass/theme_basis.scss */
+/* line 140, ../sass/theme_basis.scss */
 section#experience .timeline > li > .timeline-panel {
   background-color: #fff;
   width: 45%;
@@ -154,7 +155,7 @@ section#experience .timeline > li > .timeline-panel {
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
-/* line 151, ../sass/theme_basis.scss */
+/* line 152, ../sass/theme_basis.scss */
 section#experience .timeline > li > .timeline-panel:before {
   position: absolute;
   top: 26px;
@@ -166,7 +167,7 @@ section#experience .timeline > li > .timeline-panel:before {
   border-bottom: 15px solid transparent;
   content: " ";
 }
-/* line 163, ../sass/theme_basis.scss */
+/* line 164, ../sass/theme_basis.scss */
 section#experience .timeline > li > .timeline-panel:after {
   position: absolute;
   top: 27px;
@@ -178,7 +179,7 @@ section#experience .timeline > li > .timeline-panel:after {
   border-bottom: 14px solid transparent;
   content: " ";
 }
-/* line 175, ../sass/theme_basis.scss */
+/* line 176, ../sass/theme_basis.scss */
 section#experience .timeline > li > .timeline-badge {
   color: #fff;
   width: 50px;
@@ -197,87 +198,87 @@ section#experience .timeline > li > .timeline-badge {
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
 }
-/* line 194, ../sass/theme_basis.scss */
+/* line 195, ../sass/theme_basis.scss */
 section#experience .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
 }
-/* line 198, ../sass/theme_basis.scss */
+/* line 199, ../sass/theme_basis.scss */
 section#experience .timeline > li.timeline-inverted > .timeline-panel:before {
   border-left-width: 0;
   border-right-width: 15px;
   left: -15px;
   right: auto;
 }
-/* line 205, ../sass/theme_basis.scss */
+/* line 206, ../sass/theme_basis.scss */
 section#experience .timeline > li.timeline-inverted > .timeline-panel:after {
   border-left-width: 0;
   border-right-width: 14px;
   left: -14px;
   right: auto;
 }
-/* line 212, ../sass/theme_basis.scss */
+/* line 213, ../sass/theme_basis.scss */
 section#experience .timeline-badge.primary {
   background-color: #2e6da4 !important;
 }
-/* line 216, ../sass/theme_basis.scss */
+/* line 217, ../sass/theme_basis.scss */
 section#experience .timeline-badge.success {
   background-color: #3f903f !important;
 }
-/* line 220, ../sass/theme_basis.scss */
+/* line 221, ../sass/theme_basis.scss */
 section#experience .timeline-badge.warning {
   background-color: #f0ad4e !important;
 }
-/* line 224, ../sass/theme_basis.scss */
+/* line 225, ../sass/theme_basis.scss */
 section#experience .timeline-badge.danger {
   background-color: #d9534f !important;
 }
-/* line 228, ../sass/theme_basis.scss */
+/* line 229, ../sass/theme_basis.scss */
 section#experience .timeline-badge.info {
   background-color: #5bc0de !important;
 }
-/* line 232, ../sass/theme_basis.scss */
+/* line 233, ../sass/theme_basis.scss */
 section#experience .timeline-title {
   margin-top: 0;
   color: inherit;
 }
-/* line 237, ../sass/theme_basis.scss */
+/* line 238, ../sass/theme_basis.scss */
 section#experience .timeline-body > p,
 section#experience .timeline-body > ul {
   margin-bottom: 0;
 }
-/* line 242, ../sass/theme_basis.scss */
+/* line 243, ../sass/theme_basis.scss */
 section#experience .timeline-body > p + p {
   margin-top: 5px;
 }
 @media (max-width: 767px) {
-  /* line 247, ../sass/theme_basis.scss */
+  /* line 248, ../sass/theme_basis.scss */
   section#experience ul.timeline:before {
     left: 40px;
   }
-  /* line 251, ../sass/theme_basis.scss */
+  /* line 252, ../sass/theme_basis.scss */
   section#experience ul.timeline > li > .timeline-panel {
     width: calc(100% - 90px);
     width: -moz-calc(100% - 90px);
     width: -webkit-calc(100% - 90px);
   }
-  /* line 257, ../sass/theme_basis.scss */
+  /* line 258, ../sass/theme_basis.scss */
   section#experience ul.timeline > li > .timeline-badge {
     left: 15px;
     margin-left: 0;
     top: 16px;
   }
-  /* line 263, ../sass/theme_basis.scss */
+  /* line 264, ../sass/theme_basis.scss */
   section#experience ul.timeline > li > .timeline-panel {
     float: right;
   }
-  /* line 267, ../sass/theme_basis.scss */
+  /* line 268, ../sass/theme_basis.scss */
   section#experience ul.timeline > li > .timeline-panel:before {
     border-left-width: 0;
     border-right-width: 15px;
     left: -15px;
     right: auto;
   }
-  /* line 274, ../sass/theme_basis.scss */
+  /* line 275, ../sass/theme_basis.scss */
   section#experience ul.timeline > li > .timeline-panel:after {
     border-left-width: 0;
     border-right-width: 14px;
@@ -286,7 +287,7 @@ section#experience .timeline-body > p + p {
   }
 }
 
-/* line 284, ../sass/theme_basis.scss */
+/* line 285, ../sass/theme_basis.scss */
 section#skills .progress {
   height: 30px;
   margin: 10px 0 15px 0;
@@ -294,7 +295,7 @@ section#skills .progress {
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
 }
-/* line 290, ../sass/theme_basis.scss */
+/* line 291, ../sass/theme_basis.scss */
 section#skills .progress .progress-bar {
   background-color: #B8A75F;
   color: #fff;
@@ -307,11 +308,11 @@ section#skills .progress .progress-bar {
   border-radius: 3px;
   text-align: right;
 }
-/* line 303, ../sass/theme_basis.scss */
+/* line 304, ../sass/theme_basis.scss */
 section#skills .skills-item {
   margin-bottom: 60px;
 }
-/* line 305, ../sass/theme_basis.scss */
+/* line 306, ../sass/theme_basis.scss */
 section#skills .skills-item .skills-icon {
   background-color: #B8A75F;
   color: #fff;
@@ -323,25 +324,25 @@ section#skills .skills-item .skills-icon {
   background: #B8A75F;
   border-radius: 5px;
 }
-/* line 315, ../sass/theme_basis.scss */
+/* line 316, ../sass/theme_basis.scss */
 section#skills .skills-item .skills-icon i {
   margin: 16px 0 0 8px;
 }
-/* line 319, ../sass/theme_basis.scss */
+/* line 320, ../sass/theme_basis.scss */
 section#skills .skills-item .skills-text {
   margin-left: 80px;
   line-height: 1.3em;
 }
-/* line 322, ../sass/theme_basis.scss */
+/* line 323, ../sass/theme_basis.scss */
 section#skills .skills-item .skills-text h4 {
   font-size: 1.3em;
 }
 
-/* line 330, ../sass/theme_basis.scss */
+/* line 331, ../sass/theme_basis.scss */
 section#contact .contact-inner-container {
   text-align: center;
 }
-/* line 332, ../sass/theme_basis.scss */
+/* line 333, ../sass/theme_basis.scss */
 section#contact .contact-inner-container .footer-icon {
   font-size: 3rem;
   line-height: 7rem;
@@ -354,7 +355,7 @@ section#contact .contact-inner-container .footer-icon {
   margin: 0 30px 0 30px;
   transition: all .3s ease-in-out;
 }
-/* line 344, ../sass/theme_basis.scss */
+/* line 345, ../sass/theme_basis.scss */
 section#contact .contact-inner-container .footer-icon:hover {
   background-color: #887B44;
 }

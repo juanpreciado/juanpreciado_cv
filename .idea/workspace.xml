@@ -25,8 +25,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.464285">
-              <caret line="313" column="14" selection-start-line="313" selection-start-column="14" selection-end-line="313" selection-end-column="14" />
+            <state vertical-scroll-proportion="-1.4137931">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding>
                 <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -54,13 +54,12 @@
       <file leaf-file-name="theme_basis.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cv/sass/theme_basis.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48417133">
-              <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6927374">
+              <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
               <folding>
-                <element signature="e#1277#1554#0" expanded="false" />
-                <element signature="e#1578#1735#0" expanded="false" />
-                <element signature="e#1757#5510#0" expanded="false" />
-                <element signature="e#5527#6553#0" expanded="false" />
+                <element signature="e#1604#1761#0" expanded="false" />
+                <element signature="e#1783#5536#0" expanded="false" />
+                <element signature="e#5553#6579#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -70,9 +69,9 @@
         <entry file="file://$PROJECT_DIR$/cv/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="1142.9286">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
-                <marker date="1456579438875" expanded="true" signature="896:918" placeholder="{...}" />
+                <marker date="1456581024787" expanded="true" signature="896:918" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -121,10 +120,10 @@
       <file leaf-file-name="theme_basis.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cv/css/theme_basis.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.928571">
-              <caret line="284" column="16" selection-start-line="284" selection-start-column="16" selection-end-line="284" selection-end-column="16" />
+            <state vertical-scroll-proportion="-6.785714">
+              <caret line="285" column="16" selection-start-line="285" selection-start-column="16" selection-end-line="285" selection-end-column="16" />
               <folding>
-                <marker date="1456579438919" expanded="true" signature="782:804" placeholder="{...}" />
+                <marker date="1456581024823" expanded="true" signature="782:804" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -360,7 +359,7 @@
     <frame x="-1" y="0" width="1368" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21969697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -867,27 +866,27 @@
     <entry file="file://$PROJECT_DIR$/cv/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1142.9286">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
-            <marker date="1456579438875" expanded="true" signature="896:918" placeholder="{...}" />
+            <marker date="1456581024787" expanded="true" signature="896:918" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cv/css/theme_basis.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.928571">
-          <caret line="284" column="16" selection-start-line="284" selection-start-column="16" selection-end-line="284" selection-end-column="16" />
+        <state vertical-scroll-proportion="-6.785714">
+          <caret line="285" column="16" selection-start-line="285" selection-start-column="16" selection-end-line="285" selection-end-column="16" />
           <folding>
-            <marker date="1456579438919" expanded="true" signature="782:804" placeholder="{...}" />
+            <marker date="1456581024823" expanded="true" signature="782:804" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.464285">
-          <caret line="313" column="14" selection-start-line="313" selection-start-column="14" selection-end-line="313" selection-end-column="14" />
+        <state vertical-scroll-proportion="-1.4137931">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
           <folding>
             <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -913,13 +912,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cv/sass/theme_basis.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48417133">
-          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6927374">
+          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
           <folding>
-            <element signature="e#1277#1554#0" expanded="false" />
-            <element signature="e#1578#1735#0" expanded="false" />
-            <element signature="e#1757#5510#0" expanded="false" />
-            <element signature="e#5527#6553#0" expanded="false" />
+            <element signature="e#1604#1761#0" expanded="false" />
+            <element signature="e#1783#5536#0" expanded="false" />
+            <element signature="e#5553#6579#0" expanded="false" />
           </folding>
         </state>
       </provider>
