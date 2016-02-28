@@ -9,9 +9,13 @@ $border-color-grey: #2b2d2f;
 
 body {
   background: url("../images/feroe_background.png");
+  background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
   font-size: 16px;
+  @media (max-width: 768px) {
+    background-size: 250%;
+  }
 }
 
 .navbar-inverse {
