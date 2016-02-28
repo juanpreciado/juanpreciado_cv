@@ -1,4 +1,5 @@
 $font-color-white: #fff;
+$font-color-black: #333;
 $background-color-white: #fff;
 $background-color-white-transparent: rgba(255, 255, 255, 0.7);;
 $background-color-green-brown: #B8A75F;
@@ -11,6 +12,10 @@ body {
   background-size: 100%;
   background-attachment: fixed;
   font-size: 16px;
+}
+
+.navbar-inverse {
+  background-color: rgba(49, 49, 49, .95) !important;
 }
 
 .sticky-menu-container {
@@ -60,7 +65,7 @@ section {
 
 section#intro {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 50px;
   background-color: $background-color-white-transparent;
   .logo {
     margin: 0 auto;
@@ -89,6 +94,9 @@ section#personal-info {
   }
   li {
     list-style: none;
+  }
+  a {
+    color: $font-color-black;
   }
 }
 
@@ -328,6 +336,7 @@ section#skills {
 }
 
 section#contact {
+  background-color: $background-color-white-transparent;
   .contact-inner-container {
     text-align: center;
     .footer-icon {
@@ -345,5 +354,9 @@ section#contact {
     .footer-icon:hover {
       background-color: $background-color-green-brown-hover;
     }
+  }
+  p {
+    text-align: center;
+    padding-top: 50px;
   }
 }

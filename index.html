@@ -5,21 +5,38 @@
     <title>Juan Preciado | Full Stack Developer</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="cv/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link href="cv/css/base.css" rel="stylesheet">
 </head>
 <body>
-<div class="sticky-menu-container">
-    <nav class="menu">
-        <ul>
-            <li><a href="#intro">Go to top</a></li>
-            <li><a href="#personal-info">About me</a></li>
-            <li><a href="#skills">My skills</a></li>
-            <li><a href="#experience">My experience</a></li>
-            <li><a href="#contact">Contact me</a></li>
-        </ul>
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Juan Preciado</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul  class="nav navbar-nav">
+                    <li><a href="#intro">Go to top</a></li>
+                    <li><a href="#personal-info">About me</a></li>
+                    <li><a href="#skills">My skills</a></li>
+                    <li><a href="#experience">My experience</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-</div>
+
+
 <div class="content">
     <section id="intro">
         <div class="container">
@@ -49,6 +66,18 @@
                     <div class="row">
                         <div class="col-xs-4 personal-info-title">Full name</div>
                         <div class="col-xs-8">Juan Felipe Preciado Alvarez</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4 personal-info-title">Mail</div>
+                        <div class="col-xs-8"><a class="email" href="mailto:juan.preciado@gmail.com"><i class="fa fa-envelope fa-fw"></i>juan.preciado@gmail.com</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4 personal-info-title">Phone nr.</div>
+                        <div class="col-xs-8"><i class="fa fa-mobile fa-fw"></i>+45 23 36 49 19</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4 personal-info-title">Linkedin Profile</div>
+                        <div class="col-xs-8"><a class="li" href="http://dk.linkedin.com/in/juan-felipe-preciado-alvarez" target="_blank"><i class="fa fa-linkedin fa-fw"></i>juanpreciado</a></div>
                     </div>
                     <div class="row">
                         <div class="col-xs-4 personal-info-title">Hometown</div>
@@ -324,6 +353,11 @@
                        <a href="mailto:juan.preciado@gmail.com" class="footer-icon"><i class="fa fa-envelope"></i></a>
                        <a href="https://dk.linkedin.com/in/juan-felipe-preciado-alvarez-1394447b" target="_blank" class="footer-icon"><i class="fa fa-linkedin"></i></a>
                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                   <p>This site was developed by myself using bootstrap and SCSS</p>
                 </div>
             </div>
         </div>
