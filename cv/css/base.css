@@ -8,7 +8,6 @@
 /* line 10, ../sass/theme_basis.scss */
 body {
   background: url("../images/feroe_background.png");
-  background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
   font-size: 16px;
@@ -16,7 +15,8 @@ body {
 @media (max-width: 768px) {
   /* line 10, ../sass/theme_basis.scss */
   body {
-    background-size: 250%;
+    background: url("../images/feroe_background_narrow.png");
+    background-attachment: fixed;
   }
 }
 
