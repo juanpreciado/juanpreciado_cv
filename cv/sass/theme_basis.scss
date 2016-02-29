@@ -1,7 +1,7 @@
 $font-color-white: #fff;
 $font-color-black: #333;
 $background-color-white: #fff;
-$background-color-white-transparent: rgba(255, 255, 255, 0.7);;
+$background-color-white-transparent: rgba(255, 255, 255, 0.55);;
 $background-color-green-brown: #B8A75F;
 $background-color-green-brown-hover: #887B44;
 $line-color-green-brown: #B8A75F;
@@ -15,6 +15,23 @@ body {
   @media (max-width: 768px) {
     background: url("../images/feroe_background_narrow.png");
     background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url("../images/feroe_background_narrow.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
 
