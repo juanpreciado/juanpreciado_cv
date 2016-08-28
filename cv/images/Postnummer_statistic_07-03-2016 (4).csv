@@ -1,0 +1,2 @@
+<pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'SELECT id,zip_code FROM xoops_fsa_article_meta WHERE zip_code IS NOT NULL AND id IN (286133,286130,286146,286145,286144,286143,286138,286142,286141,286139) ORDER BY zip_code'</font> <i>(length=173)</i>
+</pre>
